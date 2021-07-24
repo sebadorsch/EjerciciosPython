@@ -1,7 +1,3 @@
-
-
-
-
 def queue_time(customers, n):
     filas = []
     if n > 1 and (len(customers) >= n):
