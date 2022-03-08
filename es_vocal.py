@@ -6,6 +6,7 @@ def is_vocal(letra):
     if type(letra) != str:
         raise Exception("Error en el tipo de variable")
     else:
+        letra = letra.lower()
         return True if letra in vocales else False
 
 
@@ -16,3 +17,4 @@ if __name__ == '__main__':
     print(is_vocal("o"))
     print(is_vocal("u"))
     print(is_vocal("b"))
+    print(is_vocal("A"))
